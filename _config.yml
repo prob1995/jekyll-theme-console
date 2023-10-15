@@ -1,15 +1,26 @@
-# Example Site settings
+title: 'ppppp.me'
+description: "ppppp.me"
+#baseurl: "/jekyll-theme-console-demo-dark"
+baseurl: "/"
+
+url: "https://ppppp.me"
+
+header_pages:
+  - index.md
+  - about.md
+  # - contact.md
+
+style: dark
+
+#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer:
+# Build settings
+markdown: kramdown
+#remote_theme: b2a3e8/jekyll-theme-console
+theme: jekyll-theme-console
+
 
 #google_analytics: UA-NNNNNNNN-N
 
-#header_pages:
-#  - index.md
-#  - about.md
-
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
-
-#style: light # dark (default) or light
-#listen_for_clients_preferred_style: true # true or false (default)
-
-plugins:
-  - jekyll-seo-tag
+# plugins:
+#   - jekyll-seo-tag
